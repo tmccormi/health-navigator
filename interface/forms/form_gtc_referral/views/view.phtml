@@ -1,0 +1,16 @@
+<?php 
+foreach ( $this->form as $element ) { 
+    if ( $element instanceof Mi2_Ui_Form_Element_PrintableIF ) {
+        $printBehavior = $element->getPrintBehavior();
+        if ( $printBehavior instanceof Mi2_Ui_Form_Element_PrintBehaviorIF && 
+            $printBehavior->shouldPrint() == true ) {
+            echo $printBehavior->renderPrintable();
+        }
+    } else {
+        $printBehavior = new Mi2_Ui_Form_Element_DefaultPrintBehavior( $element );
+        if ( $printBehavior->shouldPrint() == true ) {
+            echo $printBehavior->renderPrintable();
+        }
+    }
+}
+

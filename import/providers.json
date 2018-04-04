@@ -1,0 +1,66 @@
+{ 
+	"table": {
+		"source": "gtc_legacy_phn_providers",
+		"destination": "users",
+		"columns": [
+		  
+			{ "source": "DCI_FIRST_NAME", 
+	      	  "destination": "fname" },
+	      	  
+			{ "source": "DCI_LAST_NAME", 
+	      	  "destination": "lname" },
+	      	  
+	      	{ "source": "DCI_TITLE", 
+	      	  "destination": "title" },
+	      	  
+			{ "source": "DCI_GROUP_PRACTICE_NAME", 
+	      	  "destination": "facility" },
+	      	  
+	      	{ "source": "DCI_TAX_ID", 
+	      	  "destination": "federaltaxid" },  
+
+	      	{ "source": "DCI_ADDRESS", 
+	      	  "destination": "street" },
+	      	
+	      	{ "source": "DCI_SUITE", 
+	      	  "destination": "streetb" },
+	      	
+	      	{ "source": "DCI_CITY", 
+	      	  "destination": "city" },
+	      	  
+	      	{ "source": "DCI_STATE", 
+	      	  "destination": "state" },
+	      	  
+	      	{ "source": "DCI_POSTAL_CODE", 
+	      	  "destination": "zip" },   
+	      	  
+	      	{ "source": "DCI_WORK_PHONE", 
+	      	  "destination": "phone" },
+	      	  
+	      	{ "source": "DCI_MOBIL_PHONE", 
+	      	  "destination": "phonecell" },
+	      	  
+	      	{ "source": "DCI_FAX_NUMBER", 
+	      	  "destination": "fax" },
+	      	  
+	      	{ "source": "DCI_ALTERNATIVE_PHONE", 
+	      	  "destination": "phonew1" }, 
+	      	  
+	      	{ "source": "DCI_EMAIL", 
+	      	  "destination": "email" }, 
+	      	  
+	      	{ "source": "DCI_SPECIALTIES", 
+	      	  "destination": "specialty" },
+	      	  
+	      	{ "source": "PROVIDER_NOTES", 
+	      	  "destination": "notes" },
+	      	  
+	      	{ "source": "PROVIDER_PLEDGED_PATIENT_SLOTS", 
+	      	  "destination": "provider_slots_pledged" }, 
+	      	  
+	      	{ "source": "PROVIDER_SLOTS_USED_DURING_THIS_PERIOD", 
+	      	  "destination": "provider_slots_used" }  	  
+      	  
+		]
+	}
+}

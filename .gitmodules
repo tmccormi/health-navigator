@@ -1,0 +1,3 @@
+[submodule "mi2lib"]
+	path = mi2lib
+	url = http://kchapple@devtools.mi-squared.com:7990/scm/MI2LIB/mi2lib.git

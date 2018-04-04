@@ -1,0 +1,60 @@
+{ 
+	"table": {
+		"source": "gtc_legacy_webnav_contacts",
+		"destination": "patient_data",
+		"columns": [
+			{ "source": "contactid", 
+			  "destination": "pubpid" },
+			  
+			{ "source": { 
+					"type": "sql", 
+					"statement": "( SELECT max(pid)+1 AS pid FROM patient_data )" }, 
+  			  "destination": "pid" },
+	      
+			{ "source": "FirstName", 
+	      	  "destination": "fname" },
+	      	  
+			{ "source": "LastName", 
+	      	  "destination": "lname" },
+	      	  
+	      	{ "source": "DOB", 
+	      	  "destination": "DOB" },
+	      	  
+	      	{ "source": "address1", 
+	      	  "destination": "street" },
+	      	  
+	      	{ "source": "city", 
+	      	  "destination": "city" },
+	      	  
+	      	{ "source": "state", 
+	      	  "destination": "state" },
+	      	  
+	      	{ "source": "zip", 
+	      	  "destination": "postal_code" },
+	      	   
+	      	{ "source": "phone", 
+	      	  "destination": "phone_home" },
+	      	   
+	      	{ "source": "ContactPhone", 
+	      	  "destination": "phone_contact" },
+	      	  
+	      	{ "source": "ContactRel", 
+	      	  "destination": "contact_relationship" },
+	      	  
+	      	{ "source": "Homeless", 
+	      	  "destination": "homeless" },
+	      	       
+	        { "source": "Race_Ethn", 
+	      	  "destination": "race" },
+	      	  
+	      	{ "source": "Language", 
+	      	  "destination": "language" },   
+	      	
+	      	{ "source": {
+	      			"type": "constant",
+	      			"value": "Please see the old system for this client's history" },
+	          "destination": "genericval2" }   	  
+      	  
+		]
+	}
+}

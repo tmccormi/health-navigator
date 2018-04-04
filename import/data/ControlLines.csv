@@ -1,0 +1,38 @@
+"ContactTypeID","Vitamins","HowWait","Type Call","Place","3 ans","4 ans","4a ans","2 ans","city","resource","racethn","language","EC Reason","satisfaction","Reference","WhyER","ObtainIns"
+"1","Already on Vitamins","Walk-in","Initial","Staff Note","Yes","Yes","Yes","Yes","Baytown","Veteran's Admin","Caucasian","English","No Transportation","Excellent","Hi-Risk Preg                  ","No Money","Medicaid"
+"10",,,"#Disconnect","Appt. Made",,,,,"Hockley",,,"African - Subsaharan","Second Opinion",,"ENR                           ","Clinic closed for holiday ",
+"11",,,"Contact Failed","Appt. Kept",,,,,"Houston",,,"Other","Other",,"ENRNOD                        ","Pending Medicaid ",
+"12",,,"MH Return","     ",,,,,"Huffman",,,"    ","    ",,"Community Event               ","Pending HCHD card",
+"13",,,"MH Initial",,,,,,"Humble",,,,,,"Marketplace                   ","Other",
+"14",,,"Init-Success",,,,,,"Jacinto City",,,,,,"                              ","     ",
+"15",,,"NOD",,,,,,"Katy",,,,,,,"",
+"16",,,"    ",,,,,,"LaPorte",,,,,,,,
+"17",,,,,,,,,"League City",,,,,,,,
+"18",,,,,,,,,"Montgomery",,,,,,,,
+"19",,,,,,,,,"New Caney",,,,,,,,
+"2","Referred to get Vitamins","Phone","Follow-up","In-Clinic","No","No","No","No","Channelview","CHIP","Hispanic","Spanish","Too far to travel to HH","Good","CbfB                          ","EMS Brought in","CHIP"
+"20",,,,,,,,,"New Waverley",,,,,,,,
+"21",,,,,,,,,"Other (Use zip code)",,,,,,,,
+"22",,,,,,,,,"Pasadena",,,,,,,,
+"23",,,,,,,,,"Seabrook",,,,,,,,
+"24",,,,,,,,,"South Houston",,,,,,,,
+"25",,,,,,,,,"Splendora",,,,,,,,
+"26",,,,,,,,,"Spring",,,,,,,,
+"27",,,,,,,,,"Stafford",,,,,,,,
+"28",,,,,,,,,"Sugar Land",,,,,,,,
+"29",,,,,,,,,"Tomball",,,,,,,,
+"3","Gave Vitamins","After Pregnancy Test","Successful","By Telephone","Not applicable","Not applicable","Not applicable","     ","Cleveland","None (out-of Pocket)","Black","Vietnamese","Considered Emergency","Fair (explain why in notes)","MHHS                          ","New in Town ","Employer Based"
+"30",,,,,,,,,"Webster",,,,,,,,
+"31",,,,,,,,,"Willis",,,,,,,,
+"32",,,,,,,,,"Missouri City",,,,,,,,
+"33",,,,,,,,,"Galveston",,,,,,,,
+"33",,,,,,,,,"Friendswood",,,,,,,,
+"34",,,,,,,,,"Richmond ",,,,,,,,
+"35",,,,,,,,,"Rosenberg",,,,,,,,
+"36",,,,,,,,,"     ",,,,,,,,
+"4"," "," ","Marketplace","Sent Letter","     ","Already applied","Unknown",,"Conroe","Private Insurance","Oriental","French","No Available HH appointment","Poor (explain why in notes)","MMM                           ","Referred by Provider","Individual Based"
+"5",,,"Add Referral","Case closed (explain why in notes)",,"     ","    ",,"Crosby","Medicaid","Middle Eastern","Hindi","HH closed","Does not remember","NOD                           ","Gold Card Pt - Disgruntled with HCHD","Medicare"
+"6",,,"Administrative","Community Location",,,,,"Cut n Shoot","Medicare","Mexican","Arabic","Does not know HH","    ","ACO                           ","Sudden Onset - Concerned Family","High-Risk Pool"
+"7",,,"Wrong Number","Emergency Room",,,,,"Cypress","HHSystem Assistance","Central Asian","Oriental Asian - Other","In process of renewing TexCare",,"HISD-FSA                      ","No appointment available at PCP","PCIP"
+"8",,,"Tele-NoAnswer","Email",,,,,"Deer Park","       ","Other","Central Asian - Other","Referred from HH",,"HISD-Non                      ","No Dr or medical home ","Verteran's "
+"9",,,"Left Message","In-Home",,,,,"Galena Park",,"    ","European - Other","Newborn pending Resource",,"MEXVDS                        ","No Health Insurance  ","       "

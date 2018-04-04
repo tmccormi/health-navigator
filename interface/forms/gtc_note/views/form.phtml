@@ -1,0 +1,13 @@
+<?php 
+$returnurl = $GLOBALS['concurrent_layout'] ? 'encounter_top.php' : 'patient_encounter.php';
+?>
+<script type="text/javascript">
+    $(document).ready( function() {
+        $('#cancel').click( function() { 
+        	top.restoreSession();
+        	window.location = "<?php echo $GLOBALS['webroot']."/interface/patient_file/encounter/$returnurl";?>";
+        }); 
+    });
+</script>
+<?php
+echo $this->form;

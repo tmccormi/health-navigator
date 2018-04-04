@@ -1,0 +1,15 @@
+<div class="<?php echo $this->class; if ( $this->element->isRequired() == true ) echo ' required'; ?>">
+	<?php echo $this->formLabel( $this->element->getName(), $this->element->getLabel() ) ?>
+
+	<?php echo $this->{$this->element->helper}(
+            $this->element->getName(),
+            $this->element->getValue(),
+            $this->element->getAttribs()
+	) ?>
+	<?php 
+		if ( count( $this->element->getMessages() ) ) {
+			echo $this->formErrors( $this->element->getMessages() ); 
+		}
+	?>
+	<div class="hint"><?php echo $this->element->getDescription() ?></div>
+</div>
